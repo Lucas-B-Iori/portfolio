@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
 
 export default function MenuItem({ texto, link }) {
   return (
-    <li className="text-white font-semibold hover:animate-pulse hover:skew-y-3">
+    <motion.li 
+      className="text-white text-lg font-semibold"
+      whileHover={{ scale: 1.2 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: 'spring', stiffness: 1000, damping: 20}}
+    >
       <Link to={link}>{texto}</Link>
-    </li>
+    </motion.li>
   )
 }

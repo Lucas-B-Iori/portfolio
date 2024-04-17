@@ -1,5 +1,7 @@
+import ContatoSection from "../../components/ContatoSection";
+
 export default function Contato() {
   return (
-    <div>Contato</div>
+    <ContatoSection />
   )
 }

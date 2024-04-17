@@ -1,5 +1,7 @@
+import CurriculoSection from "../../components/CurriculoSection";
+
 export default function Curriculo() {
   return (
-    <div>Curriculo</div>
+    <CurriculoSection />
   )
 }
