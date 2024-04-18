@@ -32,6 +32,7 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: nowrap;
   color: white;
   opacity: 0.4;
+  width: 100%;
 }
 
 .parallax .scroller {
