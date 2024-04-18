@@ -1,5 +1,5 @@
-import siteHCImg from '../assets/site-hc.png'
-import aluraTubeImg from '../assets/aluratube.png'
+import siteHCImg from '../../../assets/site-hc.png'
+import aluraTubeImg from '../../../assets/aluratube.png'
 import ProjetoItem from './ProjetoItem'
 
 const projetos = [
@@ -45,7 +45,7 @@ const projetos = [
 
 export default function ProjetosSection() {
   return (
-    <section className="px-24 py-16 text-white">
+    <section className="px-24 py-16 text-white max-sm:px-4">
       <h2 className="text-5xl pb-28">Meus Principais Projetos</h2>
       <ul className='flex flex-col'>
         {projetos.map(projeto => (

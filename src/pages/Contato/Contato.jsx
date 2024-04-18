@@ -1,4 +1,4 @@
-import ContatoSection from "../../components/ContatoSection";
+import ContatoSection from "./components/ContatoSection";
 
 export default function Contato() {
   return (

@@ -19,7 +19,7 @@ export default function Skills() {
   return (
     <section className="px-24 py-16 text-white">
       <h2 className="text-5xl pb-8">Hard Skills</h2>
-      <div className="grid grid-cols-5 grid-rows-2 justify-center gap-12">
+      <div className="grid grid-cols-5 grid-rows-2 justify-center gap-12 max-sm:flex max-sm:flex-col">
         {skillsItems.map(skill => (
           <Skill key={skill} component={skill} />
         ))}

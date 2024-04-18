@@ -1,4 +1,3 @@
-import curriculo from '../assets/Currículo Engenheiro de software (1).pdf'
 import CurriculoItem from './CurriculoItem'
 import { FaPhoneAlt, FaLinkedin } from "react-icons/fa";
 import { MdOutlineMailOutline, MdLocationOn } from "react-icons/md";
@@ -31,13 +30,13 @@ const items = [
 
 export default function CurriculoSection() {
   return (
-    <section className="px-24 shadow-md ">
-      <div className='my-12 mx-20 p-10 bg-white text-slate-700 font-serif'>
+    <section className="px-24 shadow-md max-md:px-12 max-sm:px-2">
+      <div className='my-12 mx-20 p-10 bg-white text-slate-700 font-serif max-lg:p-4 max-md:mx-0 max-md:p2'>
         <div>
-          <h2 className='text-5xl text-center'>Lucas Bertolassi Iori</h2>
-          <h4 className='text-center text-2xl '>Engenheiro de Software</h4>
+          <h2 className='text-5xl text-center max-sm:text-3xl'>Lucas Bertolassi Iori</h2>
+          <h4 className='text-center text-2xl max-sm:text-lg'>Engenheiro de Software</h4>
         </div>
-        <div className='mx-32 py-6'>
+        <div className='mx-32 py-6 max-lg:mx-16 max-sm:mx-4'>
           <ul>
             {items.map(item => (
               <CurriculoItem key={item.texto} component={item.component}>{item.texto}</CurriculoItem>

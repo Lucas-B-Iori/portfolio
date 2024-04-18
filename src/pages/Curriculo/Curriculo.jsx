@@ -1,4 +1,4 @@
-import CurriculoSection from "../../components/CurriculoSection";
+import CurriculoSection from "./components/CurriculoSection";
 
 export default function Curriculo() {
   return (

@@ -8,7 +8,7 @@ export default function Skill({ component: Component }) {
       whileHover={{ scale: [null, 1.15, 1.2] }}
       transition={{ duration: 0.3 }}
     >
-      <Component size={72}/> 
+      <Component className='size-52 max-md:size-12'/> 
     </motion.div>
   )
 }

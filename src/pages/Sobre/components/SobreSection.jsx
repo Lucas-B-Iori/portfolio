@@ -1,4 +1,4 @@
-import Texto from "./Texto";
+import Texto from "../../../components/Texto";
 
 export default function SobreSection() {
   return (
